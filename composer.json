@@ -8,6 +8,10 @@
         "ext-ctype": "*",
         "ext-iconv": "*",
         "blackfireio/blackfire-symfony-meta": "^1.0",
+        "doctrine/dbal": "^3",
+        "doctrine/doctrine-bundle": "^2.12",
+        "doctrine/doctrine-migrations-bundle": "^3.3",
+        "doctrine/orm": "^3.1",
         "symfony/console": "7.0.*",
         "symfony/dotenv": "7.0.*",
         "symfony/flex": "^2",
@@ -65,5 +69,8 @@
             "require": "7.0.*",
             "docker": true
         }
+    },
+    "require-dev": {
+        "symfony/maker-bundle": "^1.57"
     }
 }
